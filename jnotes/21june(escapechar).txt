@@ -1,0 +1,205 @@
+Escape Characters / Escape Sequences
+====================================
+Escape characters are used to design our output in neat and clean manner.
+
+Escape characters start with back slash (\) followed by a character.
+ex:
+	\n 
+
+Mostly escape characters are placed inside output statement in java.
+ex:
+	System.out.println("\n");
+
+We have following list of escape characters in java.
+
+1) \n (new line)
+
+2) \t (horizontal tab)
+
+3) \b (back space)
+
+4) \r (carriage return)
+
+5) \f (form feeding)
+
+6) \\ (back slash)
+
+7) \" (double quote)
+
+8) \' (single quote)
+
+and etc.
+
+1) \n (new line)
+-----------------
+class Alibha
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\nTALENT");
+	}	
+}
+
+o/p:
+	IHUB
+	TALENT
+
+2) \t (horizontal tab)
+-----------------------
+class Santosh
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\tTALENT");
+	}
+}
+o/p:
+	IHUB	TALENT
+
+3) \b (back space)
+-------------------
+class Ganesh
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUBTAL\bENT");
+	}
+}
+o/p:
+	IHUBTAENT
+
+ex:
+----
+class Indra
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\b\b\bTALENT");
+	}	
+}
+o/p:
+	ITALENT
+
+4) \r (carriage return)
+-----------------------
+class Gopi
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\rTALENT");
+	}
+}
+o/p:
+	TALENT 
+	
+ex:
+--
+class Harish
+{
+	public static void main(String[] args)
+	{
+		System.out.println("TALENT\rIHUB");
+	}
+}
+o/p:
+	IHUBNT
+
+6) \\ (back slash)
+------------------
+class Kavya
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\\TALENT");
+	}
+}
+
+o/p:
+	IHUB\TALENT
+
+
+C program 
+==========
+Q) Write a c program to print %d ?
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clscr();
+
+	printf("%%d"); //%d
+
+	getch();
+}
+
+7) \" (double quote)
+--------------------
+class Manushri
+{
+	public static void main(String[] args)
+	{
+		System.out.println("I love \"java\" programming");
+	}
+}
+
+o/p:
+	I love "java" programming
+
+
+8) \' (single quote)
+--------------------
+class Nandini
+{
+	public static void main(String[] args)
+	{
+		System.out.println("I love 'java' programming");
+		System.out.println("I love \'java\' programming");
+	}
+}
+o/p:
+	I love 'java' programming 
+	I love 'java' programming 
+
+
+Screening Test  
+==============
+
+Q) What is the output of below snippet?
+
+class Example
+{
+	public static void main(String[] args)
+	{
+		System.out.print("\nkl");
+		System.out.print("\bpi");
+		System.out.print("\rha");
+	}
+}
+o/p:
+	hai 
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
